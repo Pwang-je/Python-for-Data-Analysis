@@ -54,6 +54,25 @@ print(x)
 
 # todo enumerate
 # https://wikidocs.net/16045
+# 반복문 사용 시 몇 번째 반복문인지 확인할 때 사용.
+t = [1, 3, 5, 77, 10, 52]
+for p in enumerate(t):
+    print(p, type(p))
+# (0, 1) <class 'tuple'>
+# (1, 3) <class 'tuple'>
+# (2, 5) <class 'tuple'>
+# (3, 77) <class 'tuple'>
+# (4, 10) <class 'tuple'>
+# (5, 52) <class 'tuple'>
+
+for i, v in enumerate(t):
+    print('index : {}, value : {}'.format(i, v))
+# index : 0, value : 1
+# index : 1, value : 3
+# index : 2, value : 5
+# index : 3, value : 77
+# index : 4, value : 10
+# index : 5, value : 52
 
 # todo range;
 # range(시작숫자, 종료숫자, step)
