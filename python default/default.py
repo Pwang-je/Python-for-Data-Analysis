@@ -81,6 +81,75 @@ for i in range(5):
     print(i)
 
 
+# todo sorted: 정렬된 새로운 순차 자료형 반환
+# todo zip : 여러 개의 리스트나 튜플 또는 다른 순차 자료형을 서로 짝지어서 튜플의 리스트를 생성함.
+# todo reverse(): 순차 자료형을 역순으로.
+
+
+# todo dick type.
+# todo dict 로 for 돌리는법.
+# todo 1. 일반적인 방법
+d = {'alice': [1, 2, 3], 'bob': 20, 'tony': 15, 'suzy': 30}
+for v in d:
+    print(v)
+# alice, bob, tony, suzy
+
+# todo 2. value 값으로 for문 돌리는 방법 (values())
+for v in d.values():
+    print(v)
+# [1, 2, 3]
+# 20
+# 15
+# 30
+
+# todo 3. key 와 value를 한꺼번에 for문 돌리는 방법. (items())
+for k, v in d.items():
+    print('key : {}, value : {}'.format(k, v))
+# key : alice, value : [1, 2, 3]
+# key : bob, value : 20
+# key : tony, value : 15
+# key : suzy, value : 30
+
+
+# todo 리스트 내포하는 방법.
+# 기본골격
+a = [1, 2, 3, 4]
+result = []
+for num in a:
+    result.append(num * 3)
+
+print(result)
+
+# 방법 1.
+result_2 = [num * 3 for num in a]
+print(result_2)
+
+# ex.1 짝수만 뽑고 싶을 때,
+result_3 = [num * 3 for num in a if num % 2 == 0]
+print(result_3)
+
+# 문법 표현식
+# [ 표현식(내가 하고자 하는거) for 항목 in 반복 가능개체 if 조건문 ]
+
+# [ 표현식(내가 하고자 하는거) for 항목1 in 반복 가능개체 if 조건문1
+#                           for 항목2 in 반복 가능개체 if 조건문2 ]
+
+# 간단한 구구단식.
+gugu = [x * y for x in range(2, 10)
+        for y in range(1, 10)]
+print(gugu)
+
+# 홀수에만 2를 곱하기.
+numbers = [1, 2, 3, 4, 5]
+
+result = []
+for n in numbers:
+    if n % 2 == 1:
+        result.append(n*2)
+
+result_5 = [n * 2 for n in numbers if n % 2 == 1]
+print('result_5 : ', result_5)
+
 
 
 
