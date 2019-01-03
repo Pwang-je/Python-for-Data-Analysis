@@ -1,21 +1,9 @@
-import numpy as np
-import pandas as pd
-import matplotlib.pylab as mlt
-import scipy.integrate
-# 수치적분 루틴과 미분방정식 해법기
-import scipy.linalg
-# numpy.linalg 에서 제공하는 것보다 더 확장된 선형대수 루틴과 매트릭스 분해
-import scipy.optimize
-# 함수 최적화기와 방정식의 근을 구하는 알고리즘
-import scipy.signal
-# 시그널 프로세싱 도구
-import scipy.sparse
-# 희소 행렬과 희소 선형 시스템 풀이법
-import scipy.stats
-# 표준 연속/이산 확률 분포(집적도 함수, 샘플러, 연속 분포 함수)와 다양한 통계 테스트, 기술적 통계 도구
-
 import json
 import codecs
+import pandas as pd
+from pandas import DataFrame, Series
+import matplotlib as mpl
+import matplotlib.pylab as plt
 
 # coumunity.
 # pydata : pandas 와 파이썬 데이터 분석에 관련된 질문을 위한 구글 그룹 리스트.
@@ -23,11 +11,28 @@ import codecs
 # scipy-user : 일반적인 scipy나 과학계산 파이썬 관련 질문.
 
 path = 'C:\\work\\Python for Data Analysis\\dataset\\chapter_test\\usagov_bitly_data2012-03-16-1331923249.txt'
+
 f = codecs.open(path, 'r', 'utf-8')
 records = [json.loads(line) for line in f]
-print(records[0])
+# print(records[0])
 
+# print(records[0]['tz'])
 
+datas = pd.DataFrame(records)
+# print(datas.info())
+time_zone = datas['tz'][:10]
+print('표준 시간대 : ', time_zone)
 
+time_values = datas['tz'].value_counts()
+print('시간 값 : ', time_values.head())
 
+# todo 비어있는 값을 fillna 로 대체 후 matplotlib 으로 그리기.
+clean_tz = datas['tz'].fillna('Missing value')  # na 를 missing,
+clean_tz[clean_tz == ''] = 'Unknown value'        # 아예 빈 값은 모름으로.
+time_values = clean_tz.value_counts()
+print('\nclean_tz time values : ', time_values.head(10))
+
+# .plot(kind='barh', rot=0)
+plt.plot(time_values[:10])
+plt.show()
 

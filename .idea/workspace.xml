@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8d5ac5a7-ef9a-4fa4-8729-29dab458cee1" name="Default Changelist" comment="test">
-      <change afterPath="$PROJECT_DIR$/chapter_1_before_start/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter_1_before_start/before_start.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dataset/chapter_test/usagov_bitly_data2012-03-16-1331923249.txt" afterDir="false" />
+    <list default="true" id="8d5ac5a7-ef9a-4fa4-8729-29dab458cee1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter_1_before_start/movielens.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset/chapter_test/u.item" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python for Data Analysis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python for Data Analysis.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python default/default.py" beforeDir="false" afterPath="$PROJECT_DIR$/python default/default.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_1_before_start/before_start.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_1_before_start/before_start.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,29 +30,30 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitattributes" value="1" />
+          <entry key="item" value="1" />
           <entry key="md" value="1" />
-          <entry key="py" value="2" />
+          <entry key="py" value="3" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Markdown" value="1" />
-          <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="2" />
+          <entry key="PLAIN_TEXT" value="4" />
+          <entry key="Python" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="default" value="18" />
-          <entry key="py" value="3062" />
+          <entry key="py" value="4052" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="3080" />
+          <entry key="Python" value="4070" />
         </counts>
       </usages-collector>
     </session>
@@ -70,13 +73,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chapter_1_before_start/before_start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            <state relative-caret-position="168">
+              <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chapter_1_before_start/movielens.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -100,6 +115,7 @@
       <list>
         <option value="$PROJECT_DIR$/python default/default.py" />
         <option value="$PROJECT_DIR$/chapter_1_before_start/before_start.py" />
+        <option value="$PROJECT_DIR$/chapter_1_before_start/movielens.py" />
       </list>
     </option>
   </component>
@@ -171,10 +187,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="C:/Anaconda3/envs/myenv" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\work\Python for Data Analysis\dataset\chapter_test" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\work\Python for Data Analysis\dataset\chapter_test" />
     </key>
@@ -191,7 +210,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.before_start">
+  <component name="RunManager" selected="Python.movielens">
     <configuration name="Python for Data Analysis" type="PythonConfigurationType" factoryName="Python">
       <module name="Python for Data Analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -240,9 +259,9 @@
       <module name="Python for Data Analysis" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Anaconda3\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_1_before_start" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
@@ -277,13 +296,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="movielens" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Python for Data Analysis" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter_1_before_start" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter_1_before_start/movielens.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Python for Data Analysis" />
       <item itemvalue="Python.default" />
       <item itemvalue="Python.before_start" />
+      <item itemvalue="Python.movielens" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.movielens" />
         <item itemvalue="Python.before_start" />
         <item itemvalue="Python.default" />
       </list>
@@ -307,11 +347,19 @@
       <option name="project" value="LOCAL" />
       <updated>1546523724720</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <created>1546532570412</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1546532570412</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11353944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -331,11 +379,11 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32995737" />
       <window_info anchor="right" id="R Graphics" order="4" />
       <window_info anchor="right" id="R Packages" order="5" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info active="true" anchor="right" id="Python Console" order="7" sideWeight="0.4988764" visible="true" weight="0.38059703" />
+      <window_info active="true" anchor="right" id="Python Console" order="7" sideWeight="0.4988764" visible="true" weight="0.4067164" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,10 +430,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter_1_before_start/before_start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        <state relative-caret-position="168">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/chapter_test/u.item">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_1_before_start/movielens.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
           </folding>
         </state>
       </provider>
