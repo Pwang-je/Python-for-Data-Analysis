@@ -19,4 +19,39 @@ print('reindex obj_1 \n', obj_2)
 # d    4.5
 # e   -2.8
 
+# todo. DataFrame 색인 (index), 자르기 (slicing), 거르기
+frame_data = DataFrame(np.arange(16).reshape(4, 4),
+                       columns=['one', 'two', 'three', 'four'],
+                       index=['seoul', 'tokyo', 'newyork', 'london'])
+print(frame_data)
+#          one  two  three  four
+# seoul      0    1      2     3
+# tokyo      4    5      6     7
+# newyork    8    9     10    11
+# london    12   13     14    15
+
+# todo -1. 일반 색인
+print(frame_data['two'], '\n')
+# seoul       1
+# tokyo       5
+# newyork     9
+# london     13
+
+print(frame_data[['two', 'four']])
+#          two  four
+# seoul      1     3
+# tokyo      5     7
+# newyork    9    11
+# london    13    15
+
+
+
+
+
+
+
+
+
+
+
 
